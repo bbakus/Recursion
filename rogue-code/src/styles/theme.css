@@ -1,0 +1,83 @@
+:root {
+  color-scheme: dark;
+
+  /* Generic run-theme slots. Screen CSS should use these instead of raw colors. */
+  --theme-shade-1: #0d0f18;
+  --theme-shade-2: #17151f;
+  --theme-shade-3: #242133;
+  --theme-shade-4: #3a3449;
+  --theme-shade-5: #d8d2c2;
+  --theme-shade-6: #f6f0dc;
+
+  --theme-accent-1: #f0b35d;
+  --theme-accent-2: #db6f56;
+  --theme-accent-3: #6ec5b8;
+
+  --theme-shadow-rgb: 0, 0, 0;
+  --theme-glow-rgb: 240, 179, 93;
+
+  /* Semantic tokens layered on top of the generic theme slots. */
+  --color-bg: var(--theme-shade-1);
+  --color-bg-elevated: var(--theme-shade-2);
+  --color-panel: rgba(16, 19, 29, 0.82);
+  --color-panel-border: rgba(246, 240, 220, 0.14);
+  --color-text: var(--theme-shade-6);
+  --color-text-muted: var(--theme-shade-5);
+  --color-text-quiet: rgba(216, 210, 194, 0.72);
+  --color-accent: var(--theme-accent-1);
+  --color-accent-strong: var(--theme-accent-2);
+  --color-accent-soft: var(--theme-accent-3);
+  --color-button-text: #120f16;
+  --color-button-secondary: rgba(255, 255, 255, 0.08);
+
+  --hero-glow: rgba(var(--theme-glow-rgb), 0.24);
+  --shadow-panel: 0 18px 50px rgba(var(--theme-shadow-rgb), 0.28);
+}
+
+[data-run-theme='ember-circuit'] {
+  --theme-shade-1: #0d0f18;
+  --theme-shade-2: #17151f;
+  --theme-shade-3: #242133;
+  --theme-shade-4: #3a3449;
+  --theme-shade-5: #d8d2c2;
+  --theme-shade-6: #f6f0dc;
+
+  --theme-accent-1: #f0b35d;
+  --theme-accent-2: #db6f56;
+  --theme-accent-3: #6ec5b8;
+
+  --theme-shadow-rgb: 0, 0, 0;
+  --theme-glow-rgb: 240, 179, 93;
+}
+
+[data-run-theme='verdant-byte'] {
+  --theme-shade-1: #091612;
+  --theme-shade-2: #10211c;
+  --theme-shade-3: #183229;
+  --theme-shade-4: #2d4a3f;
+  --theme-shade-5: #d6e5d4;
+  --theme-shade-6: #f2f8ed;
+
+  --theme-accent-1: #8fd46a;
+  --theme-accent-2: #d7b85b;
+  --theme-accent-3: #5ec4b3;
+
+  --theme-shadow-rgb: 3, 9, 7;
+  --theme-glow-rgb: 143, 212, 106;
+}
+
+[data-run-theme='archive-nocturne'] {
+  --theme-shade-1: #11101a;
+  --theme-shade-2: #1a1827;
+  --theme-shade-3: #29253c;
+  --theme-shade-4: #474064;
+  --theme-shade-5: #ddd8ea;
+  --theme-shade-6: #f8f4ff;
+
+  --theme-accent-1: #c7a0ff;
+  --theme-accent-2: #ff8f6b;
+  --theme-accent-3: #74d2ff;
+
+  --theme-shadow-rgb: 5, 4, 10;
+  --theme-glow-rgb: 199, 160, 255;
+}
