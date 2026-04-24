@@ -24,15 +24,15 @@ function App() {
       <section className="status-grid" aria-label="Prototype status">
         <article className="status-card">
           <h2>Current Focus</h2>
-          <p>Lock the MVP scope, then build the first playable run around one clear target.</p>
+          <p>Project skeleton first: shape the folders now so the next systems have a clean home.</p>
         </article>
         <article className="status-card">
-          <h2>First Slice</h2>
-          <p>Typewright plus Potion Bazaar: one class, one blueprint, one act, one encounter, one review.</p>
+          <h2>Current Slice</h2>
+          <p>Typewright plus Potion Bazaar, organized into engine, content, map, encounter, and preview domains.</p>
         </article>
         <article className="status-card">
-          <h2>Design Goal</h2>
-          <p>Retro workshop energy, readable systems, and a friendly loop built around momentum.</p>
+          <h2>Next Up</h2>
+          <p>Define the content shapes so seeded runs and encounters can grow from stable contracts.</p>
         </article>
       </section>
     </main>
